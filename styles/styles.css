@@ -7,11 +7,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-header, .grid, footer{
+header, .grid-class, footer{
     max-width: 840px;
     margin: 0 auto;
 }
-.grid{
+.grid-class{
     display: grid;
     align-items: center;
 }
