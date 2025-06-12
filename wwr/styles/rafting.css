@@ -97,7 +97,6 @@ header nav{
 }
 header nav a{
     text-decoration: none;
-    background-color: ;
     height: 25px;
     border-radius: 2px;
     font-weight: bold;
@@ -352,4 +351,56 @@ iframe{
     align-items: center;
     justify-items: center;
     
+}
+.trip-grid img{
+    width: 250px;
+}
+.trip-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    
+}
+.hea{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    height: 60px;
+    padding: 50px;
+}
+.hea h1{
+    color: var(--primary-color);
+    
+
+}
+.trip-grid p{
+    line-height: 30px;
+}
+.trip-grid h4{
+    text-align: center;
+    
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 10px;
+    padding: 10px;
+}
+
+.grid-table{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.grid-table-hea{
+    grid-column: 1/6;
+    align-items: center;
+    justify-items: center;
+
+
+}
+.grid-table-item1{
+     grid-column: 1/6;
+}
+.grid-table-item2{
+    grid-column: 1/6;
 }
